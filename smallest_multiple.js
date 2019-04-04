@@ -10,9 +10,11 @@ module.exports = function (ceiling) {
   // do work here
   let x = 0;
   let numberArray = [];
+
   for (let i = 1; i <= ceiling; i++) {
     numberArray.push(i);
   }
+
   for (let j = 0; j < numberArray.length; j++) {
     if (x % j !== 0) {
       x += ceiling;
