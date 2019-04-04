@@ -8,7 +8,7 @@
  */
 module.exports = function (ceiling) {
   // do work here
-  let x = 0;
+  let x = ceiling;
   let numberArray = [];
 
   for (let i = 1; i <= ceiling; i++) {
