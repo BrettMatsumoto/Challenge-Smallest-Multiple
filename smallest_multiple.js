@@ -14,13 +14,11 @@ module.exports = function (ceiling) {
   for (let i = 1; i <= ceiling; i++) {
     numberArray.push(i);
   }
-
   for (let j = 0; j < numberArray.length; j++) {
     if (x % j !== 0) {
       x += ceiling;
       j = 0;
     }
   }
-
   return x;
 };
