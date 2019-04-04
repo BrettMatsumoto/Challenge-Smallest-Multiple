@@ -11,6 +11,7 @@ module.exports = function (ceiling) {
   let x = ceiling;
   let numberArray = [];
 
+  
   for (let i = 1; i <= ceiling; i++) {
     numberArray.push(i);
   }
